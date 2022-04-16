@@ -447,7 +447,7 @@ header {
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
-    max-width: 2000;
+    max-width:fit-content;
     margin: 0 auto;
 }
 
