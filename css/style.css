@@ -117,8 +117,7 @@ h3 { font-size: var(--fs-h3) }
 
 
 .section__subtitle--intro,
-.section__subtitle--about, 
-.section__subtitle--title
+.section__subtitle--about
 {
     background: var(--clr-accent);
     padding: .25em 1em;
@@ -398,6 +397,13 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
+}
+.portfolio__subtitle--title {
+    background: var(--clr-accent);
+    padding: .25em 1em;
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em; 
+    color: teal;
 }
 
 /* footer */
