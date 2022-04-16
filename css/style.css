@@ -403,7 +403,7 @@ header {
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em; 
-    color: teal;
+    color: rgb(6, 83, 83);
 }
 
 /* footer */
