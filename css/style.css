@@ -182,7 +182,7 @@ header {
     background: transparent;
     border: 0;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     right: 1em;
     top: 1em;
     z-index: 1000;
@@ -310,6 +310,15 @@ header {
     opacity: 0.25;
 }
 
+.services {
+    margin-bottom: 4em;
+}
+
+.service {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 @media (min-width: 800px) {
     .services {
         display: flex;
@@ -378,7 +387,7 @@ header {
 }
 
 .portfolio__item {
-    background:whitesmoke;
+    background: whitesmoke;
     overflow: hidden;
 }
 
