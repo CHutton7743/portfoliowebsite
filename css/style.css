@@ -315,19 +315,19 @@ header {
 }
 
 .service {
-    max-width: 500px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px) {
     .services {
         display: flex;
-        max-width: 1000px;
+        max-width: 1300px;
         margin: 0 auto;
     }
     
     .service + .service {
-        margin-left: 2em;
+        margin-left: 4em;
     }
 }
 
