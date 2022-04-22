@@ -182,7 +182,7 @@ header {
     background: transparent;
     border: 0;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 1em;
     top: 1em;
     z-index: 1000;
@@ -378,7 +378,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background:whitesmoke;
     overflow: hidden;
 }
 
@@ -399,7 +399,7 @@ header {
     opacity: .5;
 }
 .portfolio__subtitle--title {
-    background: var(--clr-accent);
+    background: transparent;
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em; 
