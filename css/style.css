@@ -395,6 +395,8 @@ header {
             opacity 250ms linear;
     max-height: 250px;
     max-width: 250px;
+    align-content: center;
+    padding-top: 4em;
 
 }
 
@@ -410,7 +412,7 @@ header {
 }
 .portfolio__subtitle--title {
     background: transparent;
-    padding: .25em 1em;
+    text-align: left;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
     color: rgb(6, 83, 83);
