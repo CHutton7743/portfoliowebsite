@@ -369,6 +369,15 @@ header {
     }
 }
 
+/*Work history*/
+.job-title {
+    font-family: sans-serif;
+    margin-left: 1em;
+
+}
+.job-description {
+    font-family: sans-serif;
+}
 
 /* My Work */
 
