@@ -395,6 +395,7 @@ header {
     background: whitesmoke;
     overflow: hidden;
     text-decoration: none;
+    align-content: center;
 }
 
 .portfolio__img {
