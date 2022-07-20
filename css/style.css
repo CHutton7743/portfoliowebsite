@@ -41,7 +41,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: var(--clr-light);
+    background: white;
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -62,14 +62,14 @@ img {
 strong { font-weight: var(--fw-bold) }
 
 :focus {
-    outline: 3px solid var(--clr-accent);
+    outline: 3px solid rgb(25, 85, 165);
     outline-offset: 3px;
 }
 .btn {
     display: inline-block;
     padding: .5em 1.5em;
-    background: var(--clr-accent);
-    color: var(--clr-dark);
+    background: white;
+    color: rgb(25, 85, 165);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -119,13 +119,14 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--intro,
 .section__subtitle--about
 {
-    background: var(--clr-accent);
+    color: white;
+    background: rgb(25, 85, 165);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
 .section__subtitle--work {
-    color: var(--clr-accent);
+    color: rgb(25, 85, 165);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
@@ -143,8 +144,8 @@ header {
 
 .nav {
     position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: white;
+    color: rgb(25, 85, 165);
     top: 0;
     bottom: 0;
     left: 0;
@@ -174,7 +175,7 @@ header {
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color: rgb(25, 85, 165);
 }
 
 .nav-toggle {
@@ -216,7 +217,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: rgb(25, 85, 165);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -293,7 +294,7 @@ header {
 }
 
 .section__title--services {
-    color: var(--clr-accent);
+    color: white;
     position: relative;
 }
 
@@ -381,8 +382,8 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: white;
+    color: rgb(1,123,254);
     text-align: center;
 }
 
@@ -392,7 +393,7 @@ header {
 }
 
 .portfolio__item {
-    background: whitesmoke;
+    background: white;
     overflow: hidden;
     text-decoration: none;
     align-content: center;
@@ -424,14 +425,14 @@ header {
     text-align: left;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
-    color: rgb(6, 83, 83);
+    color: rgb(1,123,254);
 }
 
 /* footer */
 
 .footer {
-    background: #111;
-    color: var(--clr-accent);
+    background: white;
+    color: rgb(25, 85, 165);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
